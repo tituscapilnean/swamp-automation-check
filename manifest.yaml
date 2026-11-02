@@ -1,0 +1,14 @@
+manifestVersion: 1
+name: "@tituscapilnean/automation-check"
+version: "2026.11.01.4"
+description: "Health checks for live swamp automations: CEL checks over another behavior's latest and previous data, recorded each run, failing the run on error-level problems."
+repository: https://github.com/tituscapilnean/swamp-automation-check
+visibility: public
+license: MIT
+paths:
+  base: manifest
+models:
+  - automation_check.ts
+additionalFiles:
+  - README.md
+  - LICENSE.txt
